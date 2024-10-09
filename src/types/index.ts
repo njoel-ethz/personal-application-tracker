@@ -1,5 +1,6 @@
 // types/index.ts
 
+// Not needed if Prisma Types are sufficient
 export interface Application {
     id: number;
     companyName: string;
@@ -18,5 +19,7 @@ export interface Application {
     email: string;
     password: string;
     createdAt: string; // ISO string
-  }
+}
+  
+// Space to declare further types used by the Frontend
   
