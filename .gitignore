@@ -42,4 +42,5 @@ next-env.d.ts
 
 # Prisma
 prisma/dev.db
+prisma/migrations
 .env
